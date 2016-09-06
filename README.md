@@ -1,2 +1,3 @@
 # Maya_Python
-Python_Script
+MAYA用のPythonScriptです。
+主にアニメーター向けのツールになります。
