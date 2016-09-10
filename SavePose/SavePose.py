@@ -121,7 +121,7 @@ class savepose:
 		cmds.separator(w = Help_WindowWidth_Size,h=10)
 		cmds.text(label=u"●タブを【連番に】変更すると、複数フレームを書き出せます。")
 		cmds.text(label=u"　入力はカンマ「,」で区切っていただくと事で、出力がなされます。")
-		cmds.text(label=u"　数字以外は入力しないで下さい。※エラー処理はしてませんので")
+		cmds.text(label=u"　数字以外は入力しないで下さい。")
 		cmds.showWindow(Help_MakeWindow)
 
 	#folderOpen
