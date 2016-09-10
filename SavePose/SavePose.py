@@ -128,10 +128,7 @@ class savepose:
 		SystemPath = cmds.internalVar(uad = True) + 'SavePose/'
 		if not os.path.exists(SystemPath):
 			os.makedirs(SystemPath)
-		SystemPath2 = SystemPath.replace("/", "\\\\")
-		os.popen("explorer " + str(SystemPath2))
-		#cmdがでるから、お休み
-		#os.system('explorer ' + "\"" + SystemPath2 + "\"")
+		os.popen("explorer " + SystemPath.replace('/', '\\'))
 		
 	def MenuMake(self,*args):
 		Pose_window = "SavePose"
