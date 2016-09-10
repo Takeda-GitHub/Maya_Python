@@ -3,7 +3,6 @@ import maya.cmds as cmds
 import codecs
 import os.path
 from functools import partial
-import re
 
 class savepose:
 	radioB = ""
